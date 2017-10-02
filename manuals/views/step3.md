@@ -696,7 +696,7 @@ Now let's create our method in `lib/methods.js`:
 ```diff
 @@ -0,0 +1,13 @@
 +┊  ┊ 1┊import { Meteor } from 'meteor/meteor';
-+┊  ┊ 2┊import { Chats, Messages } from '../lib/collections';
++┊  ┊ 2┊import { Chats, Messages } from '../../../lib/collections';
 +┊  ┊ 3┊
 +┊  ┊ 4┊Meteor.methods({
 +┊  ┊ 5┊  newMessage(message) {
